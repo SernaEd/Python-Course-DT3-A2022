@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+message_incorrect: "Try executing the code line by line in your head"
+options:
+- text: "Script successfully completes, and prints out <code>succeeded: 5.0</code>"
+  is_correct: false
+- text: "Script successfully completes, but prints out <code>failed</code>"
+  is_correct: false
+- text: "Script successfully completes, but prints out <code>succeeded: </code> followed by some number not equal to 5.0"
+  is_correct: false
+- text: "Script enters an infinite loop and never terminates"
+  is_correct: true
+files:
+- name: main.py
+  visible: true
+- name: __init__.py
+  visible: false
+

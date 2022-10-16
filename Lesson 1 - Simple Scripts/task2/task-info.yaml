@@ -1,6 +1,12 @@
 type: edu
 files:
-- name: task.py
+- name: tests/test_task.py
+  visible: false
+- name: __init__.py
+  visible: false
+- name: tests/__init__.py
+  visible: false
+- name: task2.py
   visible: true
   placeholders:
   - offset: 31
@@ -9,12 +15,6 @@ files:
     dependency:
       lesson: Lesson 1 - Simple Scripts
       task: task1
-      file: task1/task.txt
+      file: task1/task1.py
       placeholder: 0
       is_visible: false
-- name: tests/test_task.py
-  visible: false
-- name: __init__.py
-  visible: false
-- name: tests/__init__.py
-  visible: false

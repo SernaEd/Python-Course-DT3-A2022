@@ -1,6 +1,6 @@
 import unittest
 
-from task import print_if_happy
+from task2 import print_if_happy
 
 
 class TestCase(unittest.TestCase):

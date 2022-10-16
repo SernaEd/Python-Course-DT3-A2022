@@ -1,0 +1,14 @@
+type: edu
+files:
+- name: finalTask.py
+  visible: true
+  placeholders:
+  - offset: 54
+    length: 653
+    placeholder_text: '# TODO: Replace this text with your code'
+- name: __init__.py
+  visible: false
+- name: tests/test_task.py
+  visible: false
+- name: tests/__init__.py
+  visible: false

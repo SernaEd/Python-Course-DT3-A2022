@@ -9,6 +9,6 @@ summary: |-
   - The course is based on the author's personal experience in Python development.
 programming_language: Python
 environment: unittest
+solutions_hidden: true
 content:
 - Lesson 1 - Simple Scripts
-solutions_hidden: true

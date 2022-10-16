@@ -1,11 +1,11 @@
 type: edu
 files:
-- name: task1.py
+- name: task6.py
   visible: true
   placeholders:
-  - offset: 22
-    length: 24
-    placeholder_text: '# Replace this text with your code'
+  - offset: 24
+    length: 78
+    placeholder_text: '# TODO: Replace this text with your code'
 - name: tests/test_task.py
   visible: false
 - name: __init__.py
